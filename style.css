@@ -1,13 +1,17 @@
+/* This sets box-sizing for elements and padding and margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
+/* This sets the background colour*/
 body {
     background-color: #d9dcd6;
 }
 
+/* sets the styling for the heade */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,17 @@ body {
     color: #ffffff;
 }
 
+/* makes an inline-block so it the header goes top left of the page */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Adds a class to the seo so it can be a different colour to the rest of the word*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* sets the styling for the navigation links on the wbepage*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +37,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* sets the styling for the list so they have no item markers*/
 .header section ul {
     list-style-type: none;
 }
-
+/* sets the Unordered list as an ionline block*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* gives the list a colour of white font */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets the font size*/
 p {
     font-size: 16px;
 }
-
+/* styles the section labeled 'hero' with an image and gives it styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +64,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* cretaes a class for the elements on the floating left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* creates a class for the elements on the floating right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* styles the content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styles the ebenfits section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +91,58 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* gives style to the benefit-lead section*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* gives style to the benefit-brand section*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* gives style to the benefit-cost section*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets a margin for the header of benefit 
+-lead and aligns it*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets a margin for the header of benefit 
+-brand and aligns it*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets a margin for the header of benefit 
+-cost and aligns it*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* sets the styling for benefit-lead img*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* sets the styling for benefit-brand img*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* sets the styling for benefit-cost img*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* sets the styling and margins for the element labeled search-engine-optimization*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +151,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the styling and margins for the element labeled online-reputation-management*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +160,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the styling and margins for the element labeled social-media-marketing*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +169,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets the styling for img in search engine optimization section*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* sets the styling for img in online reputation section*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* sets the styling for img in social media marketing section*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*sets the font size and margin seperation at the bottom of the heading within search-engine-optimization section*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets the font size and margin seperation at the bottom of the heading within online-reputation-management section*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets the font size and margin seperation at the bottom of the heading within social media marketing section*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the styling for the footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* sets the font size for the header within footer of page*/
 .footer h2 {
     font-size: 20px;
 }
