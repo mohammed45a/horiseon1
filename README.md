@@ -5,7 +5,7 @@ The purpose of the challenge was givento refactor html code from an end user and
 
 ## Screenshot
 
-![alt text](images/challenge1-screenshot.png)
+![alt text](images/challenge1screenshot.png)
 
 ## Installation
 To install this, go to the repository located here https://github.com/mohammed45a/horiseon1. On the page, press the green code button and copy the repository using the https or ssh. Then open your terminal and go to your file/folder where you want to clone it. Write git clone on terminal then paste the link and the clone should copy to your local machine.
